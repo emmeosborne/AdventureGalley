@@ -11,11 +11,12 @@ public class Item {
         this.description = description;
         this.edible = edible;
     }
+
     public String getName() {
         return name;
     }
 
-    public void setItem(String name) {
+    public void setName(String name) {
         this.name = name;
     }
 
